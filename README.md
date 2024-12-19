@@ -27,6 +27,9 @@ The notebook begins with a detailed implementation of the Hodgkin-Huxley model:
 - **Differential Equations**: Numerical integration using the Euler method to update the membrane potential and gating variables over time.
 - **Initial Conditions**: Resting membrane potential and steady-state values for gating variables.
 
+![Model Implementation](screenshots/screenshot1.png)
+![Model Implementation](screenshots/screenshot2.png)
+
 ### 2. Baseline Simulation
 
 Under standard conditions, the simulation applies an external current pulse to the neuron and observes its response:
@@ -34,6 +37,8 @@ Under standard conditions, the simulation applies an external current pulse to t
 - **External Current**: A current pulse of 10 µA/cm² applied between 10 ms and 40 ms.
 - **Membrane Potential Response**: The neuron generates action potentials (spikes) during the stimulus period and returns to resting potential afterward.
 - **Visualization**: Plots of membrane potential, gating variables, ionic currents, and external current over time.
+
+![Baseline Simulation](screenshots/screenshot3.png)
 
 ### 3. Experiment: Varying External Current
 
@@ -51,6 +56,8 @@ We modified the external current to see how changes in stimulus strength and dur
 
 By adjusting the amplitude and duration of the external current, we demonstrated how the neuron's firing pattern changes in response to different stimuli. This experiment highlights the neuron's sensitivity to stimulus intensity and timing, emphasizing the importance of external inputs in neural signaling.
 
+![Experiment Results](screenshots/screenshot4.png)
+
 ### 4. Interactive Simulation
 
 The notebook includes interactive widgets to dynamically adjust simulation parameters. The interactive controls allow users to explore the effects of the following:
@@ -60,5 +67,7 @@ The notebook includes interactive widgets to dynamically adjust simulation param
 - **Ion Channel Toggles**:
   - Enable/disable the **Na⁺ channel** to control sodium current (depolarization).
   - Enable/disable the **K⁺ channel** to control potassium current (repolarization).
+ 
+![Interactive Simulation](screenshots/screenshot5.png)
 
 
