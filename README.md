@@ -51,4 +51,14 @@ We modified the external current to see how changes in stimulus strength and dur
 
 By adjusting the amplitude and duration of the external current, we demonstrated how the neuron's firing pattern changes in response to different stimuli. This experiment highlights the neuron's sensitivity to stimulus intensity and timing, emphasizing the importance of external inputs in neural signaling.
 
+### 4. Interactive Simulation
+
+The notebook includes interactive widgets to dynamically adjust simulation parameters. The interactive controls allow users to explore the effects of the following:
+
+- **Current Amplitude**: Adjust the strength of the external stimulus.
+- **Start Time and End Time**: Modify the duration of the applied stimulus.
+- **Ion Channel Toggles**:
+  - Enable/disable the **Na⁺ channel** to control sodium current (depolarization).
+  - Enable/disable the **K⁺ channel** to control potassium current (repolarization).
+
 
